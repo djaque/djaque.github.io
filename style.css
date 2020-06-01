@@ -1,0 +1,38 @@
+body{
+    background: url(img/back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+}
+
+.main-content{
+    max-width: 960px;
+    position: absolute;
+    top: 200;
+    left: 70;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 56px;
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0,1);
+    text-transform: uppercase;
+}
+
+.profile{
+    overflow: hidden;
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid #fff;
+    top: 5px;
+    left: 5px;
+    background: url(img/profile.png);
+    background-size: cover;
+}
